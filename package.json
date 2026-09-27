@@ -1,0 +1,25 @@
+{
+  "name": "kart-rush",
+  "private": true,
+  "version": "1.0.0",
+  "description": "跑跑卡丁车风格的浏览器 3D 竞速游戏：漂移、道具赛、本地分屏和线上联机（Three.js）",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.170.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.170.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yanzaocheng/kart-rush.git"
+  }
+}
